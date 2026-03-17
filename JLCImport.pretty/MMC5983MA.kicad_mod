@@ -6,7 +6,7 @@
 	(descr "-40℃~+105℃ 18bit 2.8V~3.6V 450uA I2C、SPI ±8Gs ±8Gs LGA-16(3x3) 3D Magnetic Sensors ROHS")
 	(tags "C404329 LGA-16_L3.0-W3.0-P0.50-BL_SQ MEMSIC MMC5983MA")
 	(property "Reference" "REF**"
-		(at 0 -2.6 0)
+		(at -2.8 -2 0)
 		(layer "F.SilkS")
 		(uuid "ebe43752-0c8e-4446-ba31-0d2ef6e95f20")
 		(effects
@@ -246,117 +246,341 @@
 		(layer "F.Fab")
 		(uuid "4bbcdda7-30dd-4dfb-b912-349fc55e4bf3")
 	)
-	(pad "1" smd rect
-		(at -0.75 1.575 90)
-		(size 1.05 0.3)
+	(pad "1" smd custom
+		(at -0.75 1.625)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
-		(uuid "329867be-d957-43b7-b570-a24b63610a97")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.15 0.575) (xy 0.15 0.475) (xy -0.15 0.475) (xy -0.15 0.575) (xy -0.45 0.875) (xy -0.45 1.275)
+					(xy -0.15 1.275) (xy -0.15 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "2e2ba873-535f-41b2-aaee-6e1ec603d741")
 	)
-	(pad "2" smd rect
-		(at -0.25 1.575 90)
-		(size 1.05 0.3)
+	(pad "2" smd custom
+		(at -0.25 1.625)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
-		(uuid "a82d8967-83c3-47a3-a089-b3cd378644c0")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.15 0.575) (xy 0.15 0.475) (xy -0.15 0.475) (xy -0.15 0.575) (xy -0.25 0.875) (xy -0.25 1.275)
+					(xy 0.05 1.275) (xy 0.05 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "ab9bbb83-5ec6-4012-b4d6-69c86426418e")
 	)
-	(pad "3" smd rect
-		(at 0.25 1.575 90)
-		(size 1.05 0.3)
+	(pad "3" smd custom
+		(at 0.25 1.625)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
-		(uuid "67e97e6e-135d-4106-aea5-b65879171e75")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.15 0.575) (xy -0.15 0.475) (xy 0.15 0.475) (xy 0.15 0.575) (xy 0.25 0.875) (xy 0.25 1.275)
+					(xy -0.05 1.275) (xy -0.05 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "72540fa7-da6f-4fc6-ac4f-9f974aa91b97")
 	)
-	(pad "4" smd rect
-		(at 0.75 1.575 90)
-		(size 1.05 0.3)
+	(pad "4" smd custom
+		(at 0.75 1.625)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
-		(uuid "b20fc789-3442-425c-97da-5dd6757964d6")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.15 0.575) (xy -0.15 0.475) (xy 0.15 0.475) (xy 0.15 0.575) (xy 0.45 0.875) (xy 0.45 1.275)
+					(xy 0.15 1.275) (xy 0.15 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "b5974515-edeb-4e16-be89-bbf9fe30d396")
 	)
-	(pad "5" smd rect
-		(at 1.575 0.75 90)
-		(size 0.3 1.05)
+	(pad "5" smd custom
+		(at 1.625 0.75 90)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.15 0.575) (xy 0.15 0.475) (xy -0.15 0.475) (xy -0.15 0.575) (xy -0.45 0.875) (xy -0.45 1.275)
+					(xy -0.15 1.275) (xy -0.15 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
 		(uuid "c337f757-dfb7-4ab5-ba56-66dc3b448ce1")
 	)
-	(pad "6" smd rect
-		(at 1.575 0.25 90)
-		(size 0.3 1.05)
+	(pad "6" smd custom
+		(at 1.625 0.25 90)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.15 0.575) (xy 0.15 0.475) (xy -0.15 0.475) (xy -0.15 0.575) (xy -0.25 0.875) (xy -0.25 1.275)
+					(xy 0.05 1.275) (xy 0.05 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
 		(uuid "6c751e76-85e2-4f74-948b-95f6b30980b1")
 	)
-	(pad "7" smd rect
-		(at 1.575 -0.25 90)
-		(size 0.3 1.05)
+	(pad "7" smd custom
+		(at 1.625 -0.25 90)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.15 0.575) (xy -0.15 0.475) (xy 0.15 0.475) (xy 0.15 0.575) (xy 0.25 0.875) (xy 0.25 1.275)
+					(xy -0.05 1.275) (xy -0.05 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
 		(uuid "deb17237-c10c-492b-ac48-2d0d6f29a598")
 	)
-	(pad "8" smd rect
-		(at 1.575 -0.75 90)
-		(size 0.3 1.05)
+	(pad "8" smd custom
+		(at 1.625 -0.75 90)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.15 0.575) (xy -0.15 0.475) (xy 0.15 0.475) (xy 0.15 0.575) (xy 0.45 0.875) (xy 0.45 1.275)
+					(xy 0.15 1.275) (xy 0.15 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
 		(uuid "6a1f396a-853e-4546-88d5-7ea2632c20fa")
 	)
-	(pad "9" smd rect
-		(at 0.75 -1.575 90)
-		(size 1.05 0.3)
+	(pad "9" smd custom
+		(at 0.75 -1.625 180)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
-		(uuid "aa006343-9762-4b5c-8350-3d6eb167613f")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.15 0.575) (xy 0.15 0.475) (xy -0.15 0.475) (xy -0.15 0.575) (xy -0.45 0.875) (xy -0.45 1.275)
+					(xy -0.15 1.275) (xy -0.15 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "0880d117-c47e-468c-9d54-e99d06dcf323")
 	)
-	(pad "10" smd rect
-		(at 0.25 -1.575 90)
-		(size 1.05 0.3)
+	(pad "10" smd custom
+		(at 0.25 -1.625 180)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
-		(uuid "75682975-e266-4621-a4a9-d4bcb167c381")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.15 0.575) (xy 0.15 0.475) (xy -0.15 0.475) (xy -0.15 0.575) (xy -0.25 0.875) (xy -0.25 1.275)
+					(xy 0.05 1.275) (xy 0.05 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "6026bf43-934f-4bd8-b6b5-9484463156c0")
 	)
-	(pad "11" smd rect
-		(at -0.25 -1.575 90)
-		(size 1.05 0.3)
+	(pad "11" smd custom
+		(at -0.25 -1.625 180)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
-		(uuid "5f5cdd26-d015-423c-bf00-9845167cc88f")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.15 0.575) (xy -0.15 0.475) (xy 0.15 0.475) (xy 0.15 0.575) (xy 0.25 0.875) (xy 0.25 1.275)
+					(xy -0.05 1.275) (xy -0.05 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "bd750aeb-4db1-475e-88d9-fae6454fbd6a")
 	)
-	(pad "12" smd rect
-		(at -0.75 -1.575 90)
-		(size 1.05 0.3)
+	(pad "12" smd custom
+		(at -0.75 -1.625 180)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
-		(uuid "08eca927-6daf-4970-8aa6-22d755a43941")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.15 0.575) (xy -0.15 0.475) (xy 0.15 0.475) (xy 0.15 0.575) (xy 0.45 0.875) (xy 0.45 1.275)
+					(xy 0.15 1.275) (xy 0.15 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "27a81073-829a-45e3-88cc-faeecd3d3a8a")
 	)
-	(pad "13" smd rect
-		(at -1.575 -0.75 90)
-		(size 0.3 1.05)
+	(pad "13" smd custom
+		(at -1.625 -0.75 270)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
-		(uuid "dfc4e9cc-5ca1-43c0-853a-bfaa10b4bac4")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.15 0.575) (xy 0.15 0.475) (xy -0.15 0.475) (xy -0.15 0.575) (xy -0.45 0.875) (xy -0.45 1.275)
+					(xy -0.15 1.275) (xy -0.15 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "ba78b760-6fe4-4091-98d5-fae5c5bc7c06")
 	)
-	(pad "14" smd rect
-		(at -1.575 -0.25 90)
-		(size 0.3 1.05)
+	(pad "14" smd custom
+		(at -1.625 -0.25 270)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
-		(uuid "7fe13492-601b-42c0-8ec6-34e224897d2c")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.15 0.575) (xy 0.15 0.475) (xy -0.15 0.475) (xy -0.15 0.575) (xy -0.25 0.875) (xy -0.25 1.275)
+					(xy 0.05 1.275) (xy 0.05 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "fcacff65-75b9-4a58-8c05-66b66a1b02da")
 	)
-	(pad "15" smd rect
-		(at -1.575 0.25 90)
-		(size 0.3 1.05)
+	(pad "15" smd custom
+		(at -1.625 0.25 270)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
-		(uuid "f5e1713c-b211-4328-a37b-34fef624ab57")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.15 0.575) (xy -0.15 0.475) (xy 0.15 0.475) (xy 0.15 0.575) (xy 0.25 0.875) (xy 0.25 1.275)
+					(xy -0.05 1.275) (xy -0.05 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "2bd82c5d-eff5-4337-9372-7610432ee757")
 	)
-	(pad "16" smd rect
-		(at -1.575 0.75 90)
-		(size 0.3 1.05)
+	(pad "16" smd custom
+		(at -1.625 0.75 270)
+		(size 0.3 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.06)
-		(uuid "b0039af9-f3d5-47ed-8005-ee24b188752c")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.15 0.575) (xy -0.15 0.475) (xy 0.15 0.475) (xy 0.15 0.575) (xy 0.45 0.875) (xy 0.45 1.275)
+					(xy 0.15 1.275) (xy 0.15 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "76b526a9-2fca-4c62-9605-92a95e6433e4")
 	)
 	(zone
 		(net 0)

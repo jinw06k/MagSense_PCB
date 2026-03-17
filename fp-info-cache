@@ -1,4 +1,4 @@
-27075164559153775
+27076938283257975
 36-5003-ND
 KEYSTONE_5003
 
@@ -69992,6 +69992,13 @@ AP7361C-33E-13 C500795 Diodes Incorporated SOT-223_L6.5-W3.5-P2.30-LS7.0-BR
 0
 4
 4
+JLCImport
+AP7361C-33ER-13
+-40℃~+85℃@(Ta) 1 1A 3.3V 340mV@(1A) 60uA 6V 75dB@(1kHz) Fixed Over Current Protection、Over Temperature Protection、Enable、Short Circuit Protection Positive SOT-223R Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS
+AP7361C-33ER-13 C3743528 Diodes Incorporated SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR-1
+0
+4
+3
 JLCImport
 CD74HC154M96
 -55℃~+125℃ 160uA 2V~6V 4/16 5.2mA 53ns@4.5V,50pF Single Supply SOIC-24-300mil Signal Switches, Multiplexers, Decoders ROHS
