@@ -1,0 +1,437 @@
+(footprint "MMC5983MA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "-40℃~+105℃ 18bit 2.8V~3.6V 450uA I2C、SPI ±8Gs ±8Gs LGA-16(3x3) 3D Magnetic Sensors ROHS")
+	(tags "C404329 LGA-16_L3.0-W3.0-P0.50-BL_SQ MEMSIC MMC5983MA")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "ebe43752-0c8e-4446-ba31-0d2ef6e95f20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 2.606299 0)
+		(layer "F.Fab")
+		(uuid "3fd8e242-b4ab-4472-8588-9443932b43db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_MEMSIC-MMC5983MA_C404329.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "071dfe46-4b8e-4762-878d-8a218bf2f9dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+105℃ 18bit 2.8V~3.6V 450uA I2C、SPI ±8Gs ±8Gs LGA-16(3x3) 3D Magnetic Sensors ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49a75177-5a7c-45ea-82e5-e15aa34e4238")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C404329"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a9c9c49-a445-4479-9d72-b93b894f374d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.25 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49f3a45e-a103-42b3-a313-7fe06351df55")
+	)
+	(fp_line
+		(start -1.5 -1.25)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4aa14a8d-6063-46d1-a980-afb3d8455eb9")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fe82b0b-987a-4bde-b0d0-e3fb98aaf4e9")
+	)
+	(fp_line
+		(start -1.25 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2bd584c-aafd-4fe1-9ca4-732167a29a9b")
+	)
+	(fp_line
+		(start 1.25 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8417ae77-3463-4d7f-bfad-301be1a637eb")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b6746a4-9a72-4a02-9c51-49a630ea5ff0")
+	)
+	(fp_line
+		(start 1.5 1.25)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "155ac665-e603-40bc-bef7-8f9fd432611a")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end 1.25 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3580878-354e-49f0-b6d4-2c51f04c723f")
+	)
+	(fp_circle
+		(center -1.378 2.028)
+		(end -1.378 1.928)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c948434b-e3f2-4cd1-9bd9-02e91f241455")
+	)
+	(fp_line
+		(start -1.75 -1.75)
+		(end 1.75 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5cbb333f-bd25-4041-a2f7-c9070ef2988d")
+	)
+	(fp_line
+		(start -1.75 1.75)
+		(end -1.75 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f12291c-5691-45a5-9d37-8b99afb62666")
+	)
+	(fp_line
+		(start 1.75 -1.75)
+		(end 1.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db5c4c24-f590-46d5-8ade-3b350412df19")
+	)
+	(fp_line
+		(start 1.75 1.75)
+		(end -1.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a5b330e-1849-4ba6-8af2-f5bfc830b402")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ce2ea4c3-c2d1-45aa-af01-63cc6345dc4f")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b680b8ff-fddb-4376-8b7d-6a38daa8dea2")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0bac4101-f92a-4376-a50b-bd39252b5a8c")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54572ef2-b788-4824-b52f-77a8135309c2")
+	)
+	(fp_circle
+		(center -1.378 2.028)
+		(end -1.378 1.928)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4bbcdda7-30dd-4dfb-b912-349fc55e4bf3")
+	)
+	(pad "1" smd rect
+		(at -0.75 1.575 90)
+		(size 1.05 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "329867be-d957-43b7-b570-a24b63610a97")
+	)
+	(pad "2" smd rect
+		(at -0.25 1.575 90)
+		(size 1.05 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "a82d8967-83c3-47a3-a089-b3cd378644c0")
+	)
+	(pad "3" smd rect
+		(at 0.25 1.575 90)
+		(size 1.05 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "67e97e6e-135d-4106-aea5-b65879171e75")
+	)
+	(pad "4" smd rect
+		(at 0.75 1.575 90)
+		(size 1.05 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "b20fc789-3442-425c-97da-5dd6757964d6")
+	)
+	(pad "5" smd rect
+		(at 1.575 0.75 90)
+		(size 0.3 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "c337f757-dfb7-4ab5-ba56-66dc3b448ce1")
+	)
+	(pad "6" smd rect
+		(at 1.575 0.25 90)
+		(size 0.3 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "6c751e76-85e2-4f74-948b-95f6b30980b1")
+	)
+	(pad "7" smd rect
+		(at 1.575 -0.25 90)
+		(size 0.3 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "deb17237-c10c-492b-ac48-2d0d6f29a598")
+	)
+	(pad "8" smd rect
+		(at 1.575 -0.75 90)
+		(size 0.3 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "6a1f396a-853e-4546-88d5-7ea2632c20fa")
+	)
+	(pad "9" smd rect
+		(at 0.75 -1.575 90)
+		(size 1.05 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "aa006343-9762-4b5c-8350-3d6eb167613f")
+	)
+	(pad "10" smd rect
+		(at 0.25 -1.575 90)
+		(size 1.05 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "75682975-e266-4621-a4a9-d4bcb167c381")
+	)
+	(pad "11" smd rect
+		(at -0.25 -1.575 90)
+		(size 1.05 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "5f5cdd26-d015-423c-bf00-9845167cc88f")
+	)
+	(pad "12" smd rect
+		(at -0.75 -1.575 90)
+		(size 1.05 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "08eca927-6daf-4970-8aa6-22d755a43941")
+	)
+	(pad "13" smd rect
+		(at -1.575 -0.75 90)
+		(size 0.3 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "dfc4e9cc-5ca1-43c0-853a-bfaa10b4bac4")
+	)
+	(pad "14" smd rect
+		(at -1.575 -0.25 90)
+		(size 0.3 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "7fe13492-601b-42c0-8ec6-34e224897d2c")
+	)
+	(pad "15" smd rect
+		(at -1.575 0.25 90)
+		(size 0.3 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "f5e1713c-b211-4328-a37b-34fef624ab57")
+	)
+	(pad "16" smd rect
+		(at -1.575 0.75 90)
+		(size 0.3 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.06)
+		(uuid "b0039af9-f3d5-47ed-8005-ee24b188752c")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "In1.Cu")
+		(uuid "b2b6fac3-2ce0-4f41-9950-887a5b4da2b9")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.5 2.5) (xy -2.5 -2.5) (xy 2.5 -2.5) (xy 2.5 2.5)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "In1.Cu")
+		(uuid "eaffd5a3-c41c-4d7b-b663-bc13ee292d32")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.5 2.5) (xy -2.5 -2.5) (xy 2.5 -2.5) (xy 2.5 2.5)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JLCImport.3dshapes/MMC5983MA.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
